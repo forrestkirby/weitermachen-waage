@@ -4,14 +4,13 @@ This folder contains a non-plugin prototype for WordPress + Elementor.
 
 ## Files
 
-- `elementor-snippet.template.html`: editable source with section markers (`root`, `config`, `styles`, `runtime`)
-- `elementor-snippet.paste.html`: paste-ready single block for Elementor HTML widget
+- `elementor-snippet.template.html`: self-contained snippet for Elementor HTML widget (`root`, `config`, `styles`, `runtime`)
 - `assets/scale-placeholder.svg`: dummy image (replace with customer scale artwork URL)
 
 ## How to embed in Elementor
 
 1. Add an **HTML** widget to the target page.
-2. Copy everything from `elementor-snippet.paste.html`.
+2. Copy everything from `elementor-snippet.template.html`.
 3. Paste into the widget and save.
 4. Clear page cache/CDN cache if needed.
 
